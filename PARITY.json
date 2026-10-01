@@ -1,0 +1,24 @@
+{
+  "name": "jpaw-verify",
+  "protocol": "jpaw:v3",
+  "maxTxVersion": 1,
+  "treeHash": "1bc36ff3c2d4c64257882d3a7748db44a58639c515a7ee0f7b020823ef9af20f",
+  "files": {
+    ".gitignore": "c8015948b6eaefde5eaa3862f2fe5ce0245fcde4d6e66f7441dcdcbbed46e652",
+    "LICENSE": "5372d731eb861411a480046e635a12a68c51ef5c897ed0b80ba0a79790433877",
+    "README.md": "ebc621aec2ad3b9ad656ddc5e681f3b6565e45382bca3cc0df282d51d95313ef",
+    "package.json": "3ef765dcebf5e7917aad104feac23bd249fcc180e7f7f2e8af6a0bcad69bf447",
+    "src/cli.ts": "a9cdd4a4fea70f443a6b03124c25d1c5d2ca0a28229c205d0c8d033847e84b1f",
+    "src/lotto.ts": "9f209fbe51a206cf36b2cb35c26357c61ee51d3b14a88e7cc5cb996b5acb4c69",
+    "src/policy.ts": "39bbc224b2372539ecec25f87a00abe7237cb5617cda79c636eeb61faa81cc3f",
+    "src/redact.ts": "da4ac20ddbe9d0a0309b0ef7869eff6e95be0ced42388ab1781f175ce588d701",
+    "src/tx.ts": "9b30f9ef00e761b04750fca752a57a8764e5ec6437da2a4fda9590dc668df1fc",
+    "src/verify.ts": "360af43cb1715950322c2feccccf8e97a206c461c8f5dddf0a43ce80d5087870",
+    "src/wallets.ts": "edffc81be1ea1be4223ecf5f98c766c5ff8572b120a800869f2858d90265d10d",
+    "test/cli.test.ts": "b9dda53b0774920bfae315d6025507bc286cbe67668bf4dba34de490b420cfd8",
+    "test/parity.test.ts": "fa877d2f60da1ba6c18d04981d874ba27ed23cc386c2e6338f1be62c5efd73b1",
+    "test/tree-hash.ts": "496b345a73a6f412840d626bf4e5ec9eccf13fd40eaf24f36a2d36b203bb99dd",
+    "test/verifier.test.ts": "223dd1f95ff0542da58ddcf1ed2c8a6a9cbc767860345197a24c21048054a723",
+    "tsconfig.json": "e74b7bce507dbb7ded85b470b28363fdfcdbff5c7b1fa39740fa456f9311b2f0"
+  }
+}

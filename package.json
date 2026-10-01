@@ -1,0 +1,30 @@
+{
+  "name": "jpaw-verify",
+  "version": "0.1.0",
+  "description": "Independently verify a JPAW hourly draw from public data: the published draw record, Solana, and drand.",
+  "license": "MIT",
+  "author": "zimmah",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zimmah/jpaw-verify.git"
+  },
+  "type": "module",
+  "scripts": {
+    "verify": "tsx src/cli.ts",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.99.0",
+    "drand-client": "^1.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
